@@ -1,0 +1,192 @@
+#search_top {
+  padding: 4px 9px 20px 9px;
+  width: calc(100%-18px);
+}
+#search_top_top,
+#search_top_mid,
+#search_top_bot {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 1%;
+}
+#search_box_container {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding: 7px 10px 7px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(223, 224, 226);
+}
+#search_confirm_data {
+  height: 100%;
+  width: calc(100% - 40px);
+  position: relative;
+  border: none;
+  background-color: none;
+}
+#req_search_button {
+  background-size: cover;
+  float: right;
+  height: 18px;
+  width: 18px;
+  margin-top: 2px;
+}
+#search_tool_list {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 550;
+}
+#search_tool_list .search_category {
+  width: fit-content;
+  height: fit-content;
+  line-height: 3;
+  float: right;
+  margin-right: 10px;
+}
+#search_tool_list .search_category img {
+  height: 12px;
+}
+/*---------------------------*/
+/*--search mid---*/
+#search_mid {
+  width: calc(100%-30px);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -15px;
+  animation-duration: 5s;
+}
+.search_preshow_area {
+  width: 100%;
+  height: 8.8rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#search_mid .content_preshow_container {
+  padding: 11px 16px 5px 15px;
+}
+/*
+.search_preshow_area .content_preshow_container{
+    height:fit-content;
+    height: 178px;
+}*/
+/*
+.list_preshow_click .search_preshow_area{
+    background: none;
+    color: white;
+    opacity: inherit;
+}*/
+/*
+.search_preshow_controller{
+    position: absolute;
+    width:95%;
+    background-color: none;
+    height: fit-content;
+    bottom: 14px;
+}*/
+.list_preshow_click .search_preshow_controller {
+  display: inline-block;
+}
+.list_preshow_click .search_preshow_area {
+  background: none;
+  color: rgb(120, 120, 120);
+  opacity: inherit;
+}
+.list_preshow_click .content_preshow_container {
+  background: linear-gradient(
+    45deg,
+    rgba(238, 113, 240, 0.3),
+    rgba(90, 189, 246, 0.5)
+  );
+}
+.list_preshow_click .search_preshow_controller_button {
+  float: right;
+  font-size: 13px;
+  margin-right: 5px;
+}
+.list_preshow_default .search_preshow_controller_button {
+  display: none;
+}
+.search_preshow_controller {
+  border-radius: 8px;
+  padding: 7px 10px;
+  z-index: 2;
+  width: 100%;
+  height: 145px;
+  /*background: linear-gradient(to right,rgba(241, 240, 240, 0), 10%,rgba(138, 138, 138, 0.8));*/
+  margin-top: -125px;
+  display: inline;
+  overflow-y: auto;
+}
+.search_preshow_controller_button {
+  width: fit-content;
+  padding: 3px 5px 3px 5px;
+  border: 1px solid rgb(90, 189, 246);
+  color: rgb(33, 150, 243);
+  background-color: white;
+  text-align: center;
+  float: right;
+  margin-top: -6px;
+  border-radius: 6px;
+}
+.search_preshow_area .content_preshow_additional {
+  font-size: 12px;
+  width: 100%;
+  height: fit-content;
+}
+.comment_controller .comment_input .comment_sub {
+  width: 100%;
+  margin-right: 30px;
+}
+.content_preshow_point {
+  position: relative;
+}
+.content_comment_list .content_comment_container {
+  padding-bottom: 3%;
+  padding-top: 10px;
+  border-top: 1px solid rgb(223, 224, 226);
+  height: fit-content;
+}
+.comment_controller .date_text_color {
+  margin-top: 10px;
+}
+/*===================================================================
+details css
+*/
+.sort_category {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border-top: 1px solid rgb(246, 246, 246);
+}
+.user_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#content_details_top {
+  font-weight: 350;
+  font-size: 15px;
+  margin-top: 0%;
+}
+#input_account {
+  width: 100%;
+}
+#input_account .input_style3 {
+  height: 35px;
+}
+#input_account .input_style3:nth-child(1),
+#input_account .input_style3:nth-child(2) {
+  width: 48%;
+}
+#input_account .input_style3:last-child {
+  width: 100%;
+  margin-top: 10px;
+}
+#input_account .input_style3:nth-child(1) {
+  margin-right: 4%;
+}

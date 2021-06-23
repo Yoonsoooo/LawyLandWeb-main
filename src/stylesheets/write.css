@@ -1,0 +1,37 @@
+#write_mid{
+    height:fit-content;
+    padding:0 4% 10px 4%;
+    font-size: 15px;
+}
+.write_container{
+    min-height: 31px;
+    height: fit-content;
+    color:rgb(51,51,51);
+    font-size: 15px;
+    font-family: "Noto Sans CJK KR";
+    line-height: 1.2;
+}
+.write_container div:first-child{
+    line-height: 2.113;
+}
+.write_container input[type="text"]{
+    height:29px;
+    width:calc(100% - 47px);
+}
+#status_category{
+    width: 100%;
+    height: fit-content;
+}
+.write_container textarea{
+    height:340px;
+    margin-top: 10px;
+}
+#write_confirm_button{
+    width:calc(100% - 12px);
+    box-sizing: content-box;
+    margin-top: 10px;
+    height: fit-content;
+}
+#is_anonymous{
+    margin-right: 5px;
+}

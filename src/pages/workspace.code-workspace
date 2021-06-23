@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../prj/native-web"
+		},
+		{
+			"path": "../../../../gcloud_prj/temp"
+		},
+		{
+			"path": "../../../../gcloud_prj/git-push-dir"
+		},
+		{
+			"path": "../../../../gcloud_prj/git-dir"
+		},
+		{
+			"path": "../../../../prj/git-pull-dir"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}

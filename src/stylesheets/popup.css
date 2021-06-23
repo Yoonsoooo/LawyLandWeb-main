@@ -1,0 +1,92 @@
+.popup_box{
+    width:100%;
+    background-color: white;
+    margin:0 19px 0 19px;
+    border-radius: 8px;
+    padding:9px 15px 9px 15px;
+}
+.popup_title{
+    font-size: 18px;
+    line-height: 1.375;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    font-weight: 550;
+}
+.popup_content{
+    font-size: 15px;
+    max-height:420px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width:100%;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+.popup_checkbox_content label{
+    width: 150px;
+    height: fit-content;
+    white-space: nowrap;
+    display: contents;
+}
+.popup_content_label{
+    width:100%;
+    height:fit-content;
+    font-weight: 550;
+    padding-bottom: 7px;
+}
+.popup_button_container{
+    /*margin-top: 10%;*/
+    width:100%;
+    height:30px;
+}
+
+.popup_button_container div{
+    float: right;
+    width:50px;
+    height:100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Noto Sans CJKkr';
+    line-height: 2.431;
+    color:rgb(33,150,243);
+}
+.popup_confirm_date{
+    width:17%;
+    height: 20px;
+    text-align: center;
+}
+.popup_checkbox_content{
+    width: 100%;
+    padding:2%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(239,239,239);
+    border-bottom: 1px solid rgb(239,239,239);
+    margin-bottom: 7px;
+    margin-right: 0;
+}
+.popup_checkbox_content div{margin:4px; width:30%;}
+.none_display_checkbox_label input[type="checkbox"]{
+    display: none;
+}
+.none_display_checkbox_label span{
+    display: inline-block;
+    position: relative;
+    background-color:white ;
+    padding:7px 0px;
+    font-size: 15px;
+    border-radius: 1px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+    color: rgb(68,68,68);
+    border: 1px solid rgb(238,238,238);
+    width: calc(100% - 16px);
+    text-align: center;
+}
+.none_display_checkbox_label input[type="checkbox"]:checked ~ span{
+    background-color:rgb(33,150,243) ;
+    color: white;
+}

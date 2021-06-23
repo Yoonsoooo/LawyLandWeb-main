@@ -1,0 +1,165 @@
+.button_confirm{
+    margin-top: 12px;
+    float: right;
+    font-size: 12px;
+    line-height: 1.2;
+}
+/*------------------------------------------------*/
+#change_userinfo{
+    width:100%;
+}
+#change_userinfo_top_img{
+    width:100%; /*428px*/
+    height:158px; /*233px;*/
+    object-fit: cover;
+}
+#change_userinfo_top_profile{
+    width:100%;
+    height:120px;
+    text-align: center;
+    background-color: white;
+}
+#change_userinfo_user_img{
+    width:60px;
+    height:60px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 50%;
+    margin-top: -35px;
+    z-index: 1;
+}
+.add_user_img{
+    background-color: rgb(33,150,243);
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+    margin-left: -30px;
+    z-index: 2;
+    text-align: center;
+}
+#user_profile_text{
+    font-size: 20px;
+    font-family:"Open Sans";
+    font-weight: bold;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+#change_userinfo_top_menu{
+    width:100%;
+    height:fit-content;
+    border-top: 1px solid rgb(246,246,246);
+    border-bottom: 1px solid rgb(246,246,246);
+    background-color: white;
+    font-size: 14px;
+    font-family: "Open Sans";
+    line-height: 2.429;
+    font-weight: bold;
+}
+.change_userinfo_menu_category{
+    height: 40px;
+    margin-left:10%;
+    margin-right:10%;
+    width:30%;
+    box-sizing: content-box;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: rgba(51,51,51,0.6);
+}
+.change_userinfo_menu_category.userinfo_menu_click{
+    border-bottom: 1px solid rgb(22,150,243);
+    color: rgba(51,51,51,1);
+}
+#change_userinfo_mid{
+    width:calc(100%-30px);
+    padding: 2% 15px 2% 15px;
+    animation-duration: 5s;
+    background-color: rgb(246,246,246);
+}
+.userinfo_section_container{
+    width:calc(100%-30px);
+    height:fit-content;
+    background-color: white;
+    padding: 15px;
+    border:1px solid rgb(239,239,239);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.userinfo_section_container:first-child{text-align: center;}
+.userinfo_section_container:first-child .normal_text:first-child{
+    font-weight: 550;
+    font-size: 18px;
+}
+.userinfo_section_container:first-child .normal_text:last-child{
+    font-size: 12px;
+}
+.userinfo_section{
+    width: 100%;
+    height: fit-content;
+    border-bottom:1px solid rgb(239,239,239);
+    font-size: 15px;
+    line-height: 3.2;
+}
+.userinfo_section div:first-child{
+    margin-right: 10px;
+}
+/*==========================================================
+popup부분
+*/
+.double_width_content{
+    width:100%;
+    height: 100%;
+}
+.userinfo_popup_text{
+    text-align: center;
+    font-size: 12px;
+    color:rgba(0,0,0,0.6);
+}
+.userinfo_confirm_data{
+    width:100%;
+}
+/*==========================================================
+preshow부분
+*/
+#change_userinfo_mid .content_preshow_container{
+    height: fit-content;
+    overflow: hidden;
+}
+#input_account{
+    width: 100%;
+}
+#input_account .input_style3{
+    height:35px;
+}
+#input_account .input_style3:nth-child(1),#input_account .input_style3:nth-child(2){
+    width:48%;
+}
+#input_account .input_style3:last-child{
+    width: 100%;
+    margin-top: 10px;
+}
+#input_account .input_style3:nth-child(1){
+    margin-right: 4%;
+}
+.alarm_content{
+    height:calc(100% - 17px) ;
+    width:100%;
+}
+.alarm_controller{
+    width:100%;
+    height:17px;
+    font-size: 12px;
+}
+.alarm_controller div{
+    width:fit-content;
+    height: 100%;
+}
+.alarm_controller div:last-child{
+    color: blue;
+    float: right;
+    margin-left: 10px;
+}

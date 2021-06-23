@@ -1,0 +1,214 @@
+.transition-height.duration-500.ease-in-out.h-auto.bg-white.flex.flex-col.flex-1.m-2{
+    margin-bottom: 5%;
+}
+.text_message10 {
+    white-space: break-spaces;
+    float: left;
+    background: white;
+    padding: 10px;
+    width: 95%;
+    margin-top: -5%;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 5%;
+    margin-right: 10px;
+    font-weight: 550;
+    font-size: 27px;
+    text-align: center;
+  }
+  .QA_img{
+      margin-top: 3%;
+      width: 346px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+  }
+  .text_message0{
+      text-align: left;
+      font-size: 24px;
+      padding-top: 10%;
+      font-weight: 550;
+      margin-bottom: 10px;
+  }
+  .text_message01{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+  .substitution_img{
+      margin-top: 10%;
+      width: 346px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+  }
+  .text_message1{
+      text-align: right;
+      font-size: 24px;
+      padding-top: 10%;
+      font-weight: 550;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .text_message11{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  .Law_img{
+    width: 346px;
+    height: 200px;
+    object-fit: cover;
+      margin-top: 10%;
+      border-radius: 8px;
+  }
+  .text_message2{
+      text-align: left;
+      padding-top: 10%;
+      font-size: 24px;
+      font-weight: 550;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .text_message22{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  .text_message3{
+      float: right;
+      padding-top: 10%;
+      width: 100%;
+      font-weight: 550;
+      margin-bottom: 10px;
+  }
+  .coprosperity_img{
+    width: 346px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10%;
+    border-radius: 8px;
+}
+  .text_message4{
+      text-align: left;
+      font-size: 24px;
+      width: 100%;
+      margin-top: 10%;
+      margin-bottom: 10px;
+      font-weight: 550;
+  }
+  .text_message44{
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+  .connection_img{
+    width: 346px;
+    height: 200px;
+    object-fit: cover;
+      margin-top: 10%;
+      border-radius: 8px;
+  }
+  .text_message5{
+      text-align: right;
+      padding-top: 10%;
+      font-weight: 550;
+      font-size: 24px;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+  .text_message55{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  .cynergy_img{
+    width: 346px;
+    height: 200px;
+    object-fit: cover;
+      margin-top: 10%;
+      border-radius: 8px;
+  }
+  .text_message6{
+    text-align: left;
+    padding-top: 10%;
+    font-size: 24px;
+    font-weight: 550;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.text_message66{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.text_message7{
+    text-align: right;
+    padding-top: 10%;
+    font-size: 24px;
+    font-weight: 550;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.text_message77{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.text_message_green{
+    text-align: right;
+    color: green;
+    height: 0px;
+    margin-right: 46.5%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text_message_yellow{
+    text-align: right;
+    color: rgb(217, 203, 4);
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+.text_message_blue{
+    text-align: right;
+    color: blue;
+    font-size: 18px;
+    margin-right: 20%;
+    height: 2px;
+    font-weight: 400;
+}
+.text_message78{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+.Artist_Mind_img{
+    float: right;
+    padding-top: 3%;
+    width: 40%;
+}
+.transition-height {
+    width: 95%;
+    border-radius: 8px;
+}
+.logo{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 8px;
+}

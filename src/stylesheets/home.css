@@ -1,0 +1,178 @@
+.user_img{
+    background-color: white;
+}
+.cardnews_radio{
+    margin-top: -25px;
+    width: 100%;
+    height: fit-content;
+    background-color: none;
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    /*text-align: center;*/
+}
+.cardnews_button{
+    width: 3%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+.place_right1{
+    width: 2%;
+    float: right;
+    margin-top: 8px;
+}
+.radio_style1{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.radio_style1_click{
+    width: 24px;
+    height: 8px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+#homepage_news_container .button_style2{
+    font-size: 11px;
+    position: absolute;
+    z-index: 4;
+    right: 2%;
+    margin-top: -30px;
+}
+#homepage_mid{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.cardnews_container{
+    width: 100%;
+}
+.home_container_title_text{
+    font-size: 16px;
+    font-weight: 550;
+    height: fit-content;
+    padding: 5px 0;
+}
+.home_container_title_text div{
+    width: fit-content;
+}
+#homepage_news_container{
+    background-color: blue;
+    width:100%;
+    height:fit-content;
+    overflow: hidden;
+    z-index: 0;
+}
+#homepage_qa_container{
+    background-color: rgb(246,246,246);
+}
+.border_style1{
+    height: 1px;
+    width: 96%;
+    margin: auto;
+    background-color :rgb(223,224,226);
+}
+#homepage_double_container{
+    background-color:  rgb(246,246,246);
+}
+#cardnews_back, #cardnews_content span{
+    animation-duration: 1s;
+    animation-name: newsMove;
+}
+@keyframes newsMove{
+    from{
+        opacity: 0;
+        margin-right:-20px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 0;
+    }
+}
+#cardnews_back{
+    position: relative;
+    height:200px;
+    object-fit: cover;
+    z-index: 1;
+    margin-bottom: 0;
+}
+#cardnews_header{
+    position: absolute;
+    float: right;
+    height: 200px;
+    margin-top: -200px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), 60%,black);
+    z-index: 2;
+}
+.cardnews_title{
+    width: 98%;
+    padding-left: 10px;
+    color: rgb(255, 221, 89);
+    font-size: 20px;
+    height: fit-content;
+}
+.cardnews_href.place_right{
+    width: 3%;
+}
+#cardnews_content{
+    text-align: right;
+    color: white;
+    font-size: 13px;
+    padding-right: 7%;
+    margin-top: 30px;
+}
+.cardnews_move{
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+    color: lightgray;
+    background-color: none;
+    margin-top: -110px;
+    z-index: 3;
+}
+#homepage_double_container .content_preshow_container{
+    height:fit-content;
+}
+#homepage_double_container .content_preshow_container .content_preshow_content{
+    height:fit-content;
+    position: relative;
+}
+/*--------
+account input
+*/
+.sort_category{
+    box-sizing: border-box;
+    position: relative;
+    width:100%;
+    height:30px;
+    text-align: center;
+    border-top: 1px solid rgb(246,246,246);
+}
+#input_account{
+    width: 100%;
+}
+#input_account .input_style3{
+    height:35px;
+}
+#input_account .input_style3:nth-child(1),#input_account .input_style3:nth-child(2){
+    width:48%;
+}
+#input_account .input_style3:last-child{
+    width: 100%;
+    margin-top: 10px;
+}
+#input_account .input_style3:nth-child(1){
+    margin-right: 4%;
+}
+/*---------------------------------------
+details*/
+.cardnews_deails_img{
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 5%;
+}

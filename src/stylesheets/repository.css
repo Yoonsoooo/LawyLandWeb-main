@@ -1,0 +1,186 @@
+#repository {
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 424px) {
+  #repository_file_menu {
+    /*background:linear-gradient(to right,white 10%, rgb(44, 43, 43) 80%, white 10%);*/
+    height: fit-content;
+    padding: 0 15px 0 15px;
+    width: 95%;
+    overflow-x: scroll;
+    margin-top: 12px;
+  }
+  .double_width_container {
+    width: 100%;
+  }
+}
+@media (min-width: 425px) {
+  #repository_file_menu {
+    margin-top: 12px;
+    width: 100%;
+  }
+  .double_width_container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+}
+.repository_file_category {
+  width: fit-content;
+  min-width: 58px;
+  margin-bottom: 7px;
+  height: fit-content;
+  font-weight: 550;
+  background-color: white;
+  border: 1px solid rgb(33, 150, 243);
+  line-height: 1.5;
+  font-size: 12px;
+  font-family: "Noto Sans CJK kr";
+  border-radius: 10px;
+  margin-right: 7px;
+  padding: 5px 7px 5px 7px;
+  text-align: center;
+}
+.repository_file_category.active {
+  background-color: rgb(33, 150, 243);
+  color: white;
+}
+#repository_mid {
+  width: 100%;
+  padding: 0 15px 0 15px;
+  animation-duration: 5s;
+  /*animation-duration: 5s;*/
+}
+#repository_mid .content_preshow_container {
+  height: 100%;
+  padding: 11px 16px 5px 15px;
+  width: calc(100%-20px);
+  margin-bottom: 0px;
+  border-radius: 8px;
+  border: 1px solid rgb(239, 239, 239);
+  background-color: rgb(255, 255, 255);
+}
+.list_preshow_click .repository_preshow_area {
+  background: none;
+  color: rgb(120, 120, 120);
+  opacity: inherit;
+}
+.double_comment_container1 {
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(223, 224, 226);
+}
+.double_comment_container2 {
+  padding-bottom: 15px;
+  margin-top: -25px;
+}
+.content_comment_list1 {
+  background: white;
+  font-weight: 550;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.content_comment_list2 {
+  background: white;
+  padding-left: 10px;
+  font-weight: 550;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+#results_notis {
+  padding-top: 16%;
+  margin-left: 5%;
+}
+#results_notie {
+  margin-left: 5%;
+}
+#results_notia {
+  margin-left: 5%;
+}
+#results_noti {
+  margin-left: 3%;
+}
+.results_noti_container {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+/*=================================================================
+preshow 처리 부분
+*/
+.repository_preshow_area {
+  width: 100%;
+  height: 8.8rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.content_preshow_point {
+  display: grid;
+}
+.repository_preshow_area .content_preshow_additional {
+  width: 100%;
+  font-size: 12px;
+  height: fit-content;
+  position: relative;
+}
+.repository_preshow_controller {
+  border-radius: 8px;
+  position: absolute;
+  right: 25px;
+  z-index: 2;
+  width: 8rem;
+  overflow-y: auto;
+}
+.list_preshow_click .repository_preshow_controller .button_style1 {
+  font-size: 13px;
+  margin: 2px 5px;
+  float: right;
+  margin-top: 5px;
+}
+.list_preshow_default .repository_preshow_controller .button_style1 {
+  display: none;
+  font-size: 13px;
+  margin: 2px 5px;
+  float: right;
+  margin-top: 5px;
+}
+.list_preshow_click .content_preshow_container {
+  background: linear-gradient(
+    45deg,
+    rgba(238, 113, 240, 0.3),
+    rgba(90, 189, 246, 0.5)
+  );
+}
+.button_style1 {
+  width: fit-content;
+  padding: 3px 5px 3px 5px;
+  border: 1px solid rgb(90, 189, 246);
+  color: rgb(33, 150, 243);
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+}
+#preshow_list_scrollbar {
+  margin-top: 20px;
+}
+.user_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#repository_mid .list_preshow_default .repository_preshow_controller {
+  margin-top: 0;
+}
+#results_noti_mid {
+  padding: 55px 0 90px 0;
+}

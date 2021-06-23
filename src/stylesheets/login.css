@@ -1,0 +1,271 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#auto_login_text{
+  color:white;
+  margin-left: 5px;
+}
+#login_mid {
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(33, 150, 243) 34%,
+    rgb(61, 193, 210) 64%,
+    rgb(88, 235, 177) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(33, 150, 243) 34%,
+    rgb(61, 193, 210) 64%,
+    rgb(88, 235, 177) 100%
+  );
+  background: linear-gradient(
+    to up,
+    rgb(33, 149, 243) 34%,
+    rgb(61, 193, 210) 64%,
+    rgb(88, 235, 177) 100%
+  );
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow-x: hidden;
+}
+.underLine_text {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+.inline_container * {
+  display: inline-block;
+}
+.normal_text_login {
+  line-height: 1.2;
+}
+.popup_box .normal_text {
+  color: black;
+}
+.button_login {
+  background-color: none;
+  font-family: "NotoSansCKkr";
+}
+.login_input_button {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  font-size: 16px;
+  width: 90%;
+  margin: 0 calc(8% - 12px);
+  height: 50px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 4%;
+  padding: 13px 15px 7px 15px;
+}
+.confirm_data[type="text"],
+.confirm_data[type="password"],
+.confirm_data[type="number"] {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  font-size: 16px;
+  width: 90%;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 4%;
+  padding: 7px 15px 7px 15px;
+}
+.confirm_data[type="password"] {
+  margin-bottom: 5%;
+}
+.confirm_data[type="text"]::placeholder,
+.confirm_data[type="password"]::placeholder,
+.confirm_data[type="number"]::placeholder {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.2;
+  font-size: 16px;
+}
+#main_ele {
+  box-sizing: border-box;
+  padding-bottom: 5%;
+  height: calc(100% - 50px);
+  width: 100%;
+  overflow-y: auto;
+}
+
+.button_whitebar {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 13px;
+}
+.button_whitebar div:nth-child(1) {
+  width: fit-content;
+  height: fit-content;
+  font-family: "NotoSansCKkr";
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 500;
+  margin-right: 5px;
+}
+.button_whitebar div:nth-child(2) {
+  width: fit-content;
+  height: fit-content;
+  font-family: "OpenSans";
+  color: rgb(51, 51, 51);
+  font-weight: 550;
+}
+
+/*===========================================================*/
+/*각 id 고유 css*/
+.button_login {
+  margin-left: 5%;
+  font-size: 16px;
+  color: white;
+}
+#login_content {
+  height: 100%; /*calc(100% - 100px);*/
+  width: 100%;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-o-keyframes fadein { /* Opera */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#login_title{
+    margin-top: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30%;
+}
+#register_title{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9%;
+}
+#find_title{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+#login_input{
+    margin-top: 0;
+}
+.find_label{
+    float: left;
+    margin-left: 7%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*==========================================================*/
+
+/*----------------------------------------------
+term css
+*/
+.terms_container * {
+  box-sizing: border-box;
+}
+.terms_container {
+  position: relative;
+  height: fit-content;
+  border-bottom: 1px solid rgba(197, 193, 193, 0.102);
+}
+
+.terms_container_title{
+    margin:0;
+    padding:0;
+    height:30px;
+    text-align: left;
+}
+.terms_container_title input[type="checkbox"] {
+  border-radius: 50%;
+  border-color: rgb(201, 201, 201);
+  border-width: 3px;
+}
+.terms_container_title div:last-child {
+  float: right;
+}
+
+.terms_title_text {
+  text-align: left;
+  font-size: 14px;
+  font-family: "NotoSansCJKkr";
+  line-height: 1.7;
+  color: rgb(85, 85, 85);
+}
+.terms_container_text {
+  overflow: hidden;
+  height: 0;
+  font-size: 10px;
+}
+.terms_container_text_active {
+  background-color: rgb(239, 239, 239);
+  overflow: auto;
+  height: 300px;
+  font-size: 10px;
+}
+
+#email_certification input{
+    width:90%;
+}
+#email_certification div {
+  width: fit-content;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  float: right;
+  margin-right: calc(8% + -5px);
+  margin-bottom: 5px;
+}
+/*padding: 7px 15px;*/
+#login_history_container div:first-child{
+    height: fit-content;
+    width: calc(100% - 140px);
+}
+/* #login_history_container div:last-child{
+    height: fit-content;
+    position: absolute;
+    text-align: right;
+    width: 70px;
+} */
+
+#login_checkbox_container{
+    text-align: right;
+    width:95%;
+    /*margin:0 calc(8% - 12px);*/
+}

@@ -1,0 +1,17 @@
+runtime: nodejs10
+#env: flex
+beta_settings:
+  cloud_sql_instances: lawyland-test-ver1:asia-northeast3:test-ver1
+env_variables:
+  REDISHOST: '10.92.177.91'
+  REDISPORT: '6379'
+#network:
+#  name: 'default' #vpc-test안됨 test-network
+#automatic_scaling:
+#  min_num_instances: 2
+#  max_num_instances: 4
+#  cpu_utilization:
+#    target_utilization: 0.8
+
+vpc_access_connector:
+  name: 'projects/lawyland-test-ver1/locations/asia-northeast3/connectors/serverless-vpc'

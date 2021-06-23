@@ -1,0 +1,51 @@
+.write_double_agent_mid {
+  padding: 0 15px 10px 15px;
+}
+#write_double_agent_date,
+#write_double_agent_place {
+  font-size: 12px;
+}
+.write_double_agent_label {
+  font-weight: 550;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+.write_double_agent_container {
+  height: fit-content;
+  color: rgb(51, 51, 51);
+  font-family: "Noto Sans CJK KR";
+}
+textarea {
+  width: 100%;
+  height: 350px;
+  overflow-y: scroll;
+}
+.boxcheck {
+  margin-left: 20%;
+}
+.position {
+  margin-top: -28px;
+  margin-left: 8%;
+}
+/*input[type="text"],.small_text input[type="number"]{*/
+.double_confirm_data.input_style1 {
+  width: calc(100% - 67px);
+  height: 27px;
+  box-sizing: border-box;
+}
+.double_confirm_data.input_style2 {
+  width: calc(100% - 60px);
+  height: 27px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+.small_text {
+  font-size: 15px;
+  height: 31px;
+  line-height: 2.1;
+  width: 100%;
+}
+#total {
+  width: 100%;
+  margin-top: 10px;
+}
